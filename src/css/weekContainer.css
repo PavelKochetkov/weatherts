@@ -1,0 +1,46 @@
+.weekContainer {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px black;
+    transform: translateX(-1000%);
+    animation: appearance forwards 4s;
+}
+
+@keyframes appearance {
+    33% {transform: translateX(100%);}
+    66% {transform: translateX(-50%);}
+    100% {transform: translateX(0)} 
+}
+
+.weekDayName {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(59, 132, 173);
+    font-style:inherit;
+    font-weight: 600;
+}
+
+.dayNumber {
+    text-align: center;
+    font-weight: 500;
+}
+
+.temp {
+    text-align: center;
+    text-decoration: overline;
+    font-weight: 500;
+}
+
+.descripion {
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(124, 110, 95);
+}

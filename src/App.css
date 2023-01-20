@@ -1,0 +1,91 @@
+.App {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  background-size: cover;
+}
+
+.head {
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  font-size: 50px;
+  font-weight: 300;
+  background-color: rgb(39, 154, 221);
+  padding-top: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  box-shadow: 1px 2px 2px rgba(255, 255, 255, 0.658);
+  text-shadow: 1px 2px 2px black;
+  min-width: 100%;
+  cursor: default;
+}
+
+.day, .evening, .morning {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px black;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  opacity: 0;
+  animation: display 3s forwards;
+}
+
+.inputcity {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: large;
+  outline: none;
+  border: 1px solid black;
+  width: 280px;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgb(32, 29, 185);
+}
+
+.button {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(71, 52, 52);
+  text-align: center;
+}
+
+@keyframes display {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@media (max-width: 930px) {
+  .App {
+    column-gap: 10px;
+  }
+  .head {
+    font-size: 20px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 469px) {
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    position: absolute;
+  }
+  .head {
+    font-size: 20px;
+    height: 50px;
+    min-width: 100vh;
+  }
+  .day, .evening, .morning {
+    min-width: 100vh;
+  }
+}
