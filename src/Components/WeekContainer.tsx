@@ -1,6 +1,7 @@
+import React from 'react';
 import '../css/weekContainer.css'
 import '../css/owfont-regular.css'
-import { IDataList } from "../models";
+import { IDataList } from "../models"
 
 interface DataProps {
     list: IDataList
