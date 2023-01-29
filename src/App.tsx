@@ -28,7 +28,6 @@ const App = () => {
   const search: React.KeyboardEventHandler<HTMLInputElement> = (event) => {
     if (event.key === 'Enter') {
       const fetchData = async() => {
-        
         const response = await axios.get<IData>(`${api.url}forecast?q=${event.currentTarget.value}&lang=ru&units=metric&APPID=${api.key}`)
         setCity(response.data.city.name)
         setWeatherMorning(response.data.list.filter(read => read.dt_txt.includes('06:00:00')))
