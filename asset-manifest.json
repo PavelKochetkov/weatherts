@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PavelKochetkov/wheatherts/static/css/main.54c9cc15.css",
-    "main.js": "/PavelKochetkov/wheatherts/static/js/main.afd4aa38.js",
-    "static/media/bg3.jpg": "/PavelKochetkov/wheatherts/static/media/bg3.946aa0540c87d3230a3c.jpg",
-    "static/media/owfont-regular.svg": "/PavelKochetkov/wheatherts/static/media/owfont-regular.4fabe299e94a1f0d52bb.svg",
-    "static/media/owfont-regular.ttf": "/PavelKochetkov/wheatherts/static/media/owfont-regular.3d46599b045b6a14f599.ttf",
-    "static/media/owfont-regular.eot": "/PavelKochetkov/wheatherts/static/media/owfont-regular.77585afbae07886acc4e.eot",
-    "static/media/owfont-regular.woff": "/PavelKochetkov/wheatherts/static/media/owfont-regular.165d3deef009efd0c531.woff",
-    "index.html": "/PavelKochetkov/wheatherts/index.html",
-    "main.54c9cc15.css.map": "/PavelKochetkov/wheatherts/static/css/main.54c9cc15.css.map",
-    "main.afd4aa38.js.map": "/PavelKochetkov/wheatherts/static/js/main.afd4aa38.js.map"
+    "main.css": "/weatherts/static/css/main.540d0004.css",
+    "main.js": "/weatherts/static/js/main.afd4aa38.js",
+    "static/media/bg3.jpg": "/weatherts/static/media/bg3.946aa0540c87d3230a3c.jpg",
+    "static/media/owfont-regular.svg": "/weatherts/static/media/owfont-regular.4fabe299e94a1f0d52bb.svg",
+    "static/media/owfont-regular.ttf": "/weatherts/static/media/owfont-regular.3d46599b045b6a14f599.ttf",
+    "static/media/owfont-regular.eot": "/weatherts/static/media/owfont-regular.77585afbae07886acc4e.eot",
+    "static/media/owfont-regular.woff": "/weatherts/static/media/owfont-regular.165d3deef009efd0c531.woff",
+    "index.html": "/weatherts/index.html",
+    "main.540d0004.css.map": "/weatherts/static/css/main.540d0004.css.map",
+    "main.afd4aa38.js.map": "/weatherts/static/js/main.afd4aa38.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c9cc15.css",
+    "static/css/main.540d0004.css",
     "static/js/main.afd4aa38.js"
   ]
 }
