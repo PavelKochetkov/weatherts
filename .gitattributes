@@ -1,0 +1,4 @@
+*.ts linguist-detectable=true
+*.css linguist-detectable=true
+*.tsx linguist-detectable=true
+*.json linguist-detectable=true
